@@ -1,0 +1,36 @@
+---
+pl:
+  button_easy_instant_message_address_book: Pokaż książkę adresową
+  button_easy_instant_message_full_chat: Pełen czat
+  button_easy_instant_message_send: Wyślij wiadomość
+  button_easy_instant_messages_delete_all: Usuń wszystko
+  button_easy_instant_messge_new_message: Nowa wiadomość
+  button_easy_instant_messge_new_message_short: Nowa
+  button_send: Wyślij
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Wysyłanie wiadomości z komunikatora w
+    Easy Redmine
+  easy_instant_messages_plugin_name: Chat projektowy
+  error_easy_instant_message_error: Wiadomość nie wysłana
+  label_easy_instant_message_adress_book: Książka adresowa
+  label_easy_instant_message_count_messages: Ilość wiadomości
+  label_easy_instant_message_offline: Wyłączony
+  label_easy_instant_message_recipient: Odbiorca
+  label_easy_instant_messages: Wiadomości
+  label_easy_instant_messages_complete_history: Cała historia
+  label_easy_instant_messages_history_for: 'Historia konwersacji: %{user}'
+  label_new_easy_instant_message: Nowa wiadomość
+  notice_easy_instant_message_sended: Wiadomość wysłana
+  permission_use_easy_instant_messages: Użyj chatu
+  placeholder_easy_im_search_user: Wyszukaj osoby...
+  project_module_easy_instant_messages: Chat
+  text_easy_instant_messages_notifier: Masz %{count} nowych wiadomości
+  text_im_chat_with: Czat z
+  title_easy_im_mute_sound: Wyłącz dźwięk wiadomości odebranych
+  title_easy_im_unmute_sound: Włącz dźwięk wiadomości odebranych
+  title_easy_instant_message_check_permission_notification: Pozwól na powiadomienia
+    na pulpicie
+  title_easy_instant_message_indicator: Wyświetl książkę adresową
+  title_easy_instant_message_reply: Odpowiedz
+  title_easy_instant_messages_notifier: Nowa wiadomość

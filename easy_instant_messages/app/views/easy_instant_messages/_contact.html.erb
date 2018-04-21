@@ -1,0 +1,12 @@
+<div class="easyim__contact <%= 'easyim__contact--dark' if local_assigns.fetch(:dark, false) %>">
+  <% if local_assigns.fetch(:show_link, false) %>
+    <%= link_to "", conversation_easy_instant_message_path(contact.id), class: "easyim__overlay-link", remote: true %>
+  <% end %>
+
+  <div class="easyim__avatar"><%= avatar(contact, style: :medium) %></div>
+  <h3 class="easyim__contact__name"><%= link_to_user(contact) %></h3>
+
+  <%= link_to conversation_easy_instant_message_path(contact.id), class: 'easyim__contact__history' do %>
+    <%= image_tag('history.svg', plugin: :easy_instant_messages) %>
+  <% end %>
+</div>

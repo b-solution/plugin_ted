@@ -1,0 +1,21 @@
+---
+sv:
+  button_easy_instant_message_address_book: Visa adressbok
+  button_easy_instant_message_send: Skicka meddelande
+  button_easy_instant_messge_new_message: Ny rapport
+  button_easy_instant_messge_new_message_short: Ny
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Skicka snabbmeddelanden över Easy Redmine
+  error_easy_instant_message_error: Meddelandet har inte skickats
+  label_easy_instant_message_adress_book: Adress bok
+  label_easy_instant_message_count_messages: Antal rapporter
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Mottagare
+  label_easy_instant_messages: Snabbmeddelanden
+  label_easy_instant_messages_complete_history: All historia
+  label_easy_instant_messages_history_for: Konversation historia:%{user}
+  label_new_easy_instant_message: Nytt snabbmeddelande
+  notice_easy_instant_message_sended: Meddelandet skickat
+  title_easy_instant_message_indicator: Display adress bok
+  title_easy_instant_message_reply: Svar

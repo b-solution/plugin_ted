@@ -1,0 +1,6 @@
+<% if EasyInstantMessage.is_muted? %>
+document.getElementById(EasyInstantMessenger.settings("audioTagId")).remove();
+<% else %>
+$("body").append("<%=j render 'audio_tag' %>");
+<% end %>
+$(".easy-im-sound-toggle").toggleClass('icon-mute icon-unmute').attr({title: "<%=j (EasyInstantMessage.is_muted? ? l(:title_easy_im_unmute_sound) : l(:title_easy_im_mute_sound)) %>"});

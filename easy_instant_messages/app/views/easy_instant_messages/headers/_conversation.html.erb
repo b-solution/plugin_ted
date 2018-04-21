@@ -1,0 +1,9 @@
+<div class="easyim__item easyim__item--padded">
+  <div class="easyim__item__pre easyim__item__pre--smaller">
+    <%= link_to back_arrow, conversations_easy_instant_messages_path, class: 'easyim__back-btn', remote: true %>
+  </div>
+
+  <div class="easyim__item__content">
+    <%= render partial: 'contact', locals: { contact: conversation.secondparty } %>
+  </div>
+</div>

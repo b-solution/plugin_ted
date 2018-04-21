@@ -1,0 +1,16 @@
+$("#easy_instant_messages_header").html("<%= j render partial: 'easy_instant_messages/headers/conversation', locals: { conversation: @conversation } %>");
+$("#easy_instant_messages_body").html("<%= j render @conversation %>").append("<%= j render partial: 'easy_instant_messages/conversation/submit_form', locals: { conversation: @conversation } %>");
+
+EasyInstantMessenger.scrollToBottomOfChatWindow();
+
+EasyInstantMessenger.focusSubmitInput();
+EasyInstantMessenger.watchSubmitInput();
+
+EasyInstantMessenger.setHyperInterval();
+
+EasyInstantMessenger.newMessagesCount -= parseInt("<%= @num_of_unread_messages_before_read %>");
+EasyInstantMessenger.displayReceivedMessagesCount();
+
+<% if Redmine::Plugin.installed?(:easy_attendances) %>
+  LazyLoader.refresh();
+<% end %>

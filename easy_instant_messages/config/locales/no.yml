@@ -1,0 +1,33 @@
+---
+'no':
+  button_easy_instant_message_address_book: Vis adressebok
+  button_easy_instant_message_full_chat: Full chat
+  button_easy_instant_message_send: Send melding
+  button_easy_instant_messge_new_message: Ny melding
+  button_easy_instant_messge_new_message_short: Ny
+  button_send: Send
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Sende direktemeldinger gjennom Easy Redmine
+  easy_instant_messages_plugin_name: Prosjektchat
+  error_easy_instant_message_error: Melding ble ikke sendt
+  label_easy_instant_message_adress_book: Adressebok
+  label_easy_instant_message_count_messages: Antall meldinger
+  label_easy_instant_message_offline: Frakoblet
+  label_easy_instant_message_recipient: Mottaker
+  label_easy_instant_messages: Direktemeldinger
+  label_easy_instant_messages_complete_history: All historikk
+  label_easy_instant_messages_history_for: 'Samtalehistorikk: %{user}'
+  label_new_easy_instant_message: Ny direktemelding
+  notice_easy_instant_message_sended: Melding sendt
+  permission_use_easy_instant_messages: Bruk direktemeldinger
+  placeholder_easy_im_search_user: Søk for folk å chatte med
+  project_module_easy_instant_messages: Chat - Direktemeldinger
+  text_easy_instant_messages_notifier: Du har %{count} nye meldinger
+  text_im_chat_with: Chat med
+  title_easy_im_mute_sound: Demp mottatte meldinger
+  title_easy_im_unmute_sound: Demping av for mottatte meldinger
+  title_easy_instant_message_check_permission_notification: Tillat skrivebordsvarsler
+  title_easy_instant_message_indicator: Vis adressebok
+  title_easy_instant_message_reply: Svar
+  title_easy_instant_messages_notifier: Ny melding

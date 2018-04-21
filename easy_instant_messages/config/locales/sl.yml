@@ -1,0 +1,20 @@
+---
+sl:
+  button_easy_instant_message_address_book: Pokaži seznam naslovnikov
+  button_easy_instant_message_send: Pošlji sporočilo
+  button_easy_instant_messages_delete_all: Pobriši vse
+  button_easy_instant_messge_new_message: Novo sporočilo
+  button_easy_instant_messge_new_message_short: Novo
+  button_send: Pošlji
+  error_easy_instant_message_error: Sporočilo NI poslano
+  label_easy_instant_message_offline: Ni prijavljen/a
+  label_easy_instant_message_recipient: Prejemnik
+  label_easy_instant_message_you: Ti
+  label_easy_instant_messages_complete_history: Vsa zgodovina
+  placeholder_easy_instant_messages_prompt_to_type: Napiši sporočilo ...
+  placeholder_easy_instant_messages_search_users: Išči uporabnike
+  project_module_easy_instant_messages: Pogovor
+  text_easy_instant_messages_notifier: Imaš %{count} novih sporočil
+  text_im_chat_with: Pogovor z
+  title_easy_instant_message_reply: Odgovor
+  title_easy_instant_messages_notifier: Novo sporočilo

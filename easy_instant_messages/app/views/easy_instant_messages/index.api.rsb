@@ -1,0 +1,17 @@
+api.array :easy_instant_messages do
+  @easy_instant_messages.each do |im|
+    api.easy_instant_message do
+      api.id im.id
+      api.text im.content
+      api.sender_id im.sender_id
+      api.sender im.sender.to_s
+      api.created_at im.created_at
+      api.language im.sender.language
+      api.icon easy_instant_messages_avatar_url(im.sender)
+      api.sender_avatar avatar(im.sender, style: :small)
+      api.unread im.unread
+      api.tag "sender-#{im.sender_id}-to-#{User.current.id}"
+      api.html controller.render_to_string('easy_instant_messages/conversation/_message.html.erb', locals: { message: im }, layout: false)
+    end
+  end if @easy_instant_messages
+end

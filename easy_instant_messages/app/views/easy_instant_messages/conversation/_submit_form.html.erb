@@ -1,0 +1,8 @@
+<%= labelled_form_for(EasyInstantMessage.new(recipient_id: conversation.secondparty.id), remote: true, html: { class: "easyim__submit-form easyim__conversation__submit-form" }) do |f| %>
+  <%= f.hidden_field(:recipient_id) %>
+  <%= f.text_area(:content, class: "easyim__submit-form__textarea autoExpand", no_label: true, placeholder: t(:placeholder_easy_instant_messages_prompt_to_type), rows: 1, autocomplete: "off") %>
+
+  <%= f.button type: :submit, class: "easyim__submit-form__submit-btn" do %>
+      <%= image_tag('submit-arrow.svg', plugin: :easy_instant_messages) %>
+  <% end %>
+<% end %>

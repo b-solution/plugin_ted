@@ -1,0 +1,35 @@
+---
+hu:
+  button_easy_instant_message_address_book: Címjegyzék megjelenítése
+  button_easy_instant_message_full_chat: Beszélgetés teljes ablakban
+  button_easy_instant_message_send: "Üzenet küldése"
+  button_easy_instant_messages_delete_all: Mind törlése
+  button_easy_instant_messge_new_message: "Új üzenet"
+  button_easy_instant_messge_new_message_short: "Új"
+  button_send: Küldés
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.hu/
+  easy_instant_messages_plugin_description: Azonnali üzenetek küldése az Easy Redmine-on
+    belül
+  easy_instant_messages_plugin_name: Projekt chat
+  error_easy_instant_message_error: "Üzenet nincs elküldve"
+  label_easy_instant_message_adress_book: Címjegyzék
+  label_easy_instant_message_count_messages: "Üzenetek száma"
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Címzett
+  label_easy_instant_messages: Azonnali üzenetek
+  label_easy_instant_messages_complete_history: Minden elõzmény
+  label_easy_instant_messages_history_for: 'Csevegési elõzmények vele: %{user}'
+  label_new_easy_instant_message: "Új azonnali üzenet"
+  notice_easy_instant_message_sended: "Üzenet elküldve"
+  permission_use_easy_instant_messages: Azonnali üzenetek használata
+  placeholder_easy_im_search_user: Keresés a felhasználók között
+  project_module_easy_instant_messages: Chat - Azonnali üzenetek
+  text_easy_instant_messages_notifier: "%{count} új üzenete van"
+  text_im_chat_with: Beszélgetés vele
+  title_easy_im_mute_sound: Beérkező üzenetek hangjelzése - KI
+  title_easy_im_unmute_sound: Beérkező üzenetek hangjelzése - BE
+  title_easy_instant_message_check_permission_notification: Asztali értesítések engedélyezése
+  title_easy_instant_message_indicator: Címjegyzék megjelenítése
+  title_easy_instant_message_reply: Válasz
+  title_easy_instant_messages_notifier: "Új üzenet"

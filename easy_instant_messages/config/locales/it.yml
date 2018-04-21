@@ -1,0 +1,35 @@
+---
+it:
+  button_easy_instant_message_address_book: Mostra rubrica
+  button_easy_instant_message_full_chat: Chat completa
+  button_easy_instant_message_send: Invia un messaggio
+  button_easy_instant_messages_delete_all: Cancella tutto
+  button_easy_instant_messge_new_message: Nuovo messaggio
+  button_easy_instant_messge_new_message_short: Nuovo
+  button_send: Invia
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Invio di messaggi istantanei
+  easy_instant_messages_plugin_name: Chat del progetto
+  error_easy_instant_message_error: Messaggio non inviato
+  label_easy_instant_message_adress_book: Rubrica
+  label_easy_instant_message_count_messages: Numero di messaggi
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Destinatario
+  label_easy_instant_messages: Messaggi istantanei
+  label_easy_instant_messages_complete_history: Tutta la cronologia
+  label_easy_instant_messages_history_for: 'Cronologia della conversazione: %{user}'
+  label_new_easy_instant_message: Nuovo messaggio istantaneo
+  notice_easy_instant_message_sended: Messaggio inviato
+  permission_use_easy_instant_messages: Utilizza la chat
+  placeholder_easy_im_search_user: Ricerca persone con cui chattare
+  project_module_easy_instant_messages: Chat
+  text_easy_instant_messages_notifier: Hai %{count} nuovi messaggi
+  text_im_chat_with: Chatta con
+  title_easy_im_mute_sound: Messaggi muti ricevuti
+  title_easy_im_unmute_sound: Messaggi non muti ricevuti
+  title_easy_instant_message_check_permission_notification: Concedi il permesso per
+    notifiche desktop
+  title_easy_instant_message_indicator: Visualizza rubrica
+  title_easy_instant_message_reply: Rispondi
+  title_easy_instant_messages_notifier: Nuovo messaggio

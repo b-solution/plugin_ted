@@ -1,0 +1,85 @@
+//$(function () {
+//  var message_trigger = $("a#easy_instant_messages_list_trigger");
+//  if (window.easyInstantMessagesTitleNotifier) {
+//    window.clearInterval(window.easyInstantMessagesTitleNotifier);
+//    easyInsatntMessagesTitleNotifyToggler(true);
+//  }
+  <!--<%# if @easy_instant_messages.any? %>-->
+    <!--<%# easy_instant_message = @easy_instant_messages.first if @easy_instant_messages.one? %>-->
+//    message_trigger.addClass('change-color-event');
+//    window.easyInstantMessagesTitleNotifier = setInterval(easyInsatntMessagesTitleNotifyToggler, 1500);
+//
+    <!--<%# unless EasyInstantMessage.is_muted? %>-->
+//      if ($("#easy_im_audio_notify_container").html() == "") {
+//        var audio = $("<audio/>").attr({autoplay: true});
+//        audio.append($("<source/>").attr({src:"<%#=j File.join(Redmine::Plugin.find(:easy_instant_messages).public_directory.gsub(File.join(Rails.root,'public').to_s, ""), 'chat1.ogg') %>", "type":"audio/ogg"}));
+//        audio.append($("<source/>").attr({src:"<%#=j File.join(Redmine::Plugin.find(:easy_instant_messages).public_directory.gsub(File.join(Rails.root,'public').to_s, ""), 'chat1.mp3') %>", "type":"audio/mp3"}));
+//        audio.append($("<source/>").attr({src:"<%#=j File.join(Redmine::Plugin.find(:easy_instant_messages).public_directory.gsub(File.join(Rails.root,'public').to_s, ""), 'chat1.m4a') %>", "type":"audio/mp4"}));
+//        $("#easy_im_audio_notify_container").html(audio);
+//      } else {
+//        $("#easy_im_audio_notify_container").html("")
+//      }
+    <!--<%# end %>-->
+
+//    if ($("#easy_instant_message_inline_chat_inputs").is(":visible")) {
+      <!--<%# @easy_instant_messages.group_by(&:sender_id).each do |sender_id, messages| %>-->
+//        if ($("#easy_instant_message_recipient_id").val() === '<%#= sender_id %>') {
+          <!--<%# messages.reverse.each do |message| %>-->
+//            if (!$("#inline_history_<%#= dom_id(message) -%>")[0]) {
+//              $("#easy_im_inline_message_history").append("<%#=j render(:partial => 'inline_chat_history_item', :locals => {:im => message}) %>");
+//            }
+          <!--<%# end %>-->
+//          $('#easy_im_inline_message_history').scrollTop($('#easy_im_inline_message_history')[0].scrollHeight);
+//          if (typeof(document.hidden) !== 'undefined' && !document.hidden) {
+//            $.post('<%#= read_easy_instant_messages_path %>', {ids: <%#=j messages.map(&:id).to_s %>});
+//          }
+//        }
+      <!--<%# end -%>-->
+//    } else {
+      <!--<%# message_ids = @easy_instant_messages.map(&:id) %>-->
+//      if ("Notification" in window) {
+//        if (Notification.permission === "granted" || (window.webkitNotifications && window.webkitNotifications.checkPermission() === 0)) {
+          <!--<%# if easy_instant_message %>-->
+//            var notification = new Notification("<%#=j easy_instant_message.sender.name %>",{
+//              body: "<%#=j Sanitize.clean(easy_instant_message.content.strip) %>",
+//              lang: "<%#= current_language %>",
+//              tag: "easy_instant_message"
+//            })
+//            notification.onclick = function() {
+//              window.focus();
+//              notification.close();
+//              $.get("<%#= show_easy_im_window_easy_instant_messages_path(:ids => message_ids) %>");
+//            }
+          <!--<%# else %>-->
+//            var notification = new Notification("<%#=j l(:title_easy_instant_messages_notifier) %>",{
+//              body: "<%#=j l(:text_easy_instant_messages_notifier, :count => @easy_instant_messages.count) %>",
+//              lang: "<%#= current_language %>",
+//              tag: "easy_instant_messages"
+//            })
+//            notification.onclick = function() {
+//              window.focus();
+//              notification.close();
+//              $.get("<%#= show_easy_im_window_easy_instant_messages_path(:ids => message_ids) %>");
+//            }
+          <!--<%# end %>-->
+//          notification.onshow = function() { setTimeout(function() { notification.close() }, 30000)};
+//        } else {
+//          easyInstantMessageInitNotificationForChrome();
+//        }
+//      }
+//    }
+//
+//    var mark = message_trigger.find("span.sign.count");
+//    if (!mark[0]) {
+//      mark = $("<span/>").attr({"class":"sign count"});
+//      message_trigger.append(mark);
+//    }
+//    mark.text("<%#= @easy_instant_messages.count %>");
+  <!--<%# else %>-->
+//    message_trigger.removeClass('change-color-event');
+//    message_trigger.find('span.sign').remove();
+//    $(".easy-instant-message-list-unread-mark").remove();
+  <!--<%# end %>-->
+
+//});
+window.location.reload();

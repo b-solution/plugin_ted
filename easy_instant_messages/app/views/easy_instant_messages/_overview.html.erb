@@ -1,0 +1,25 @@
+<div class="easyim__overview <%= 'easyim__overview--highlight' if overview.num_of_unread_messages.positive? %>">
+  <%= link_to "", conversation_easy_instant_message_path(overview.sender.id), class: "easyim__overview__overlay-link", remote: true %>
+
+  <div class="easyim__overview__pre">
+    <div class="easyim__avatar"><%= avatar(overview.sender) %></div>
+  </div>
+
+  <div class="easyim__overview__content">
+    <div class="easyim__overview__title-wrapper">
+      <h4 class="easyim__overview__title"><%= overview.sender.name %></h4>
+
+      <span class="easyim__overview__timestamp">
+        <%= distance_of_time_in_words(Time.now, overview.last_message.created_at) %>
+      </span>
+    </div>
+
+    <div class="easyim__overview__subtitle-wrapper">
+      <p class="easyim__overview__subtitle"><%= overview.last_message.content %></p>
+
+      <% if overview.num_of_unread_messages.positive? %>
+          <span class="easyim__overview__unread-count"><%= overview.num_of_unread_messages %></span>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+@function placeholder-color($color) {
+  @if (lightness($color) > 72%) {
+    @return mix($color, black, 30%);
+  } @else {
+    @return white;
+  }
+}

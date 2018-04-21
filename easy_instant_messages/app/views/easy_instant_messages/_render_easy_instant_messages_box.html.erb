@@ -1,0 +1,39 @@
+<% if User.current.allowed_to_globally?(:use_easy_instant_messages, {}) %>
+  <% if Redmine::Plugin.installed?(:easy_extensions) %>
+    <%= stylesheet_link_tag('easy_instant_messages_easy') %>
+    <%= javascript_include_tag('easy_instant_messages') %>
+  <% else %>
+    <%= stylesheet_link_tag('easy_instant_messages_raw', plugin: 'easy_instant_messages') %>
+    <%= javascript_include_tag('easy_instant_messages', plugin: 'easy_instant_messages') %>
+  <% end %>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      window.EasyInstantMessenger = new EasyInstantMessaging({
+        checkMessageUrl: '<%= easy_instant_messages_path(format: 'json') %>',
+        newChatUrl: '<%= new_easy_instant_message_path %>',
+        readMessageUrl: '<%= read_easy_instant_messages_path(format: 'json') %>',
+        apiKey: '<%= User.current.api_key %>',
+        soundEnabled: <%= !EasyInstantMessage.is_muted?  %>
+      });
+      $(document).trigger('easy_IM_loaded');
+    });
+  </script>
+
+  <% unless EasyInstantMessage.is_muted? %>
+    <%= render 'easy_instant_messages/audio_tag' %>
+  <% end %>
+
+  <% unless Redmine::Plugin.installed?(:easy_extensions) %>
+    <%= link_to '', conversations_easy_instant_messages_path, id: "easy_instant_messages_toggle", class: "easyim__redmine-toggle", remote: true %>
+  <% end %>
+
+  <div id="easy_instant_messages_wrapper" class="easyim__wrapper easyim__wrapper--hidden">
+    <div id="easy_instant_messages_container" class="easyim__container">
+      <span id="easy_instant_messages_top_close" class="easyim__top-close"><%= image_tag 'close.svg', plugin: :easy_instant_messages %></span>
+      <div id="easy_instant_messages_header" class="easyim__header"></div>
+      <div id="easy_instant_messages_body" class="easyim__body"></div>
+    </div>
+  </div>
+<% end %>
+

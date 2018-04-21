@@ -1,0 +1,35 @@
+---
+nl:
+  button_easy_instant_message_address_book: Adresboek tonen
+  button_easy_instant_message_full_chat: Volledige chat
+  button_easy_instant_message_send: Bericht versturen
+  button_easy_instant_messages_delete_all: Verwijder alle
+  button_easy_instant_messge_new_message: Nieuw bericht
+  button_easy_instant_messge_new_message_short: Nieuw
+  button_send: Verzenden
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Chatberichten versturen via Easy Redmine
+  easy_instant_messages_plugin_name: Project chat
+  error_easy_instant_message_error: Bericht niet verstuurd
+  label_easy_instant_message_adress_book: Adresboek
+  label_easy_instant_message_count_messages: Aantal berichten
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Ontvanger
+  label_easy_instant_messages: Chatberichten
+  label_easy_instant_messages_complete_history: Alle geschiedenis
+  label_easy_instant_messages_history_for: 'Gespreksgeschiedenis: %{user}'
+  label_new_easy_instant_message: Nieuw chatbericht
+  notice_easy_instant_message_sended: Bericht verstuurd
+  permission_use_easy_instant_messages: Gebruik chat
+  placeholder_easy_im_search_user: In mensen zoeken...
+  project_module_easy_instant_messages: Chat
+  text_easy_instant_messages_notifier: U heeft %{count} nieuwe berichten
+  text_im_chat_with: Chatten met
+  title_easy_im_mute_sound: Ontvangen berichten dempen
+  title_easy_im_unmute_sound: Dempen opheffen van ontvangen berichten
+  title_easy_instant_message_check_permission_notification: Machtiging verlenen voor
+    desktopmelding
+  title_easy_instant_message_indicator: Adresboek weergeven
+  title_easy_instant_message_reply: Antwoord
+  title_easy_instant_messages_notifier: Nieuw bericht

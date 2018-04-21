@@ -1,0 +1,21 @@
+---
+fi:
+  button_easy_instant_message_address_book: Näytä osoitekirjan
+  button_easy_instant_message_send: Lähetä viesti
+  button_easy_instant_messge_new_message: Uusi raportti
+  button_easy_instant_messge_new_message_short: Uusi
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Lähettää pikaviestejä Easy Redmine
+  error_easy_instant_message_error: Viesti ei lähetetty
+  label_easy_instant_message_adress_book: Osoite kirja
+  label_easy_instant_message_count_messages: Useita raportteja
+  label_easy_instant_message_offline: Poissa
+  label_easy_instant_message_recipient: Vastaanottaja
+  label_easy_instant_messages: Pikaviestit
+  label_easy_instant_messages_complete_history: Kaikki historia
+  label_easy_instant_messages_history_for: Keskustelu historia:%{user}
+  label_new_easy_instant_message: Uusi pikaviesti
+  notice_easy_instant_message_sended: Viesti lähetetty
+  title_easy_instant_message_indicator: Näyttö adress kirja
+  title_easy_instant_message_reply: Vastata

@@ -1,0 +1,12 @@
+---
+ro:
+  button_send: Trimite
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Trimitere mesaje instant
+  easy_instant_messages_plugin_name: Chat proiect
+  label_easy_instant_message_you: Tu
+  label_easy_instant_messages: Mesaje instant
+  label_new_easy_instant_message: Mesaj instant nou
+  placeholder_easy_instant_messages_prompt_to_type: Scrie un mesaj...
+  text_easy_instant_messages_notifier: Aveți %{count} mesaje noi

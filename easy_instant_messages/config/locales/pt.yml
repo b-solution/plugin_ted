@@ -1,0 +1,22 @@
+---
+pt:
+  button_easy_instant_message_address_book: Mostrar livro de endereços
+  button_easy_instant_message_send: Enviar mensagem
+  button_easy_instant_messge_new_message: Novo Relatório
+  button_easy_instant_messge_new_message_short: Novo
+  easy_instant_messages_plugin_author: Fácil Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Envio de mensagens instantâneas mais fácil
+    Redmine
+  error_easy_instant_message_error: Mensagem não enviada
+  label_easy_instant_message_adress_book: Livro de endereço
+  label_easy_instant_message_count_messages: Número de relatórios
+  label_easy_instant_message_offline: Desligado
+  label_easy_instant_message_recipient: Beneficiário
+  label_easy_instant_messages: As mensagens instantâneas
+  label_easy_instant_messages_complete_history: Toda a história
+  label_easy_instant_messages_history_for: O histórico da conversa:%{user}
+  label_new_easy_instant_message: Nova mensagem instantânea
+  notice_easy_instant_message_sended: Mensagem enviada
+  title_easy_instant_message_indicator: Mostrar livro adress
+  title_easy_instant_message_reply: Responder

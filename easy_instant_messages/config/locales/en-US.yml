@@ -1,0 +1,34 @@
+---
+en-US:
+  button_easy_instant_message_address_book: Show address book
+  button_easy_instant_message_full_chat: Full chat
+  button_easy_instant_message_send: Send message
+  button_easy_instant_messge_new_message: New message
+  button_easy_instant_messge_new_message_short: New
+  button_send: Send
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Sending instant messages over Easy Redmine
+  easy_instant_messages_plugin_name: Project chat
+  error_easy_instant_message_error: Message not sent
+  label_easy_instant_message_adress_book: Adress book
+  label_easy_instant_message_count_messages: Number of messages
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Recipient
+  label_easy_instant_messages: Instant messages
+  label_easy_instant_messages_complete_history: All history
+  label_easy_instant_messages_history_for: 'Conversation history: %{user}'
+  label_new_easy_instant_message: New instant message
+  notice_easy_instant_message_sended: Message sent
+  permission_use_easy_instant_messages: Use instant messages
+  placeholder_easy_im_search_user: Search for people to chat with
+  project_module_easy_instant_messages: Chat - Instant messages
+  text_easy_instant_messages_notifier: You have %{count} new messages
+  text_im_chat_with: Chat with
+  title_easy_im_mute_sound: Mute received messages
+  title_easy_im_unmute_sound: Unmute received messages
+  title_easy_instant_message_check_permission_notification: Grant permission to desktop
+    notification
+  title_easy_instant_message_indicator: Display adress book
+  title_easy_instant_message_reply: Answer
+  title_easy_instant_messages_notifier: New message

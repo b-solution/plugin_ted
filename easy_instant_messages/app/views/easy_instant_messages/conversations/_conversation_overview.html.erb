@@ -1,0 +1,31 @@
+<div class="easyim__overview easyim__item">
+  <%= link_to "", conversation_easy_instant_message_path(conversation.secondparty.id), class: "easyim__overlay-link", remote: true %>
+
+  <div class="easyim__overview__pre easyim__item__pre">
+    <div class="easyim__avatar"><%= avatar(conversation.secondparty, style: :medium) %></div>
+  </div>
+
+  <div class="easyim__overview__content easyim__item__content">
+    <div class="easyim__overview__title-wrapper">
+      <h4 class="easyim__overview__title"><%= link_to_user(conversation.secondparty) %></h4>
+
+      <span class="easyim__overview__timestamp">
+        <%= distance_of_time_in_words(Time.now, conversation.last_message.created_at) %>
+      </span>
+    </div>
+
+    <div class="easyim__overview__subtitle">
+      <% if conversation.num_of_unread_messages > 0 %>
+        <span class="easyim__overview__unread-count"><%= conversation.num_of_unread_messages %></span>
+      <% end %>
+
+      <div class="easyim__overview__last-message">
+        <% if conversation.last_message.sender_id == User.current.id %>
+          <%= l('label_easy_instant_message_you') + ': ' %>
+        <% end %>
+
+        <%= strip_tags(textilizable(conversation.last_message.content)) %>
+      </div>
+    </div>
+  </div>
+</div>

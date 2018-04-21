@@ -1,0 +1,10 @@
+<% if @easy_instant_message.persisted? %>
+  var lastMessage = $("#easy_instant_messages_conversation_messages").find('.easyim__message').last()
+  if (lastMessage.hasClass('mine')) {
+    lastMessage.find('.easyim__message__avatar').addClass('easyim__avatar easyim__message__avatar--hidden')
+  }
+
+  $("#easy_instant_message_content").attr('rows',1).val('').focus();
+  $("#easy_instant_messages_conversation_messages").append("<%= j render partial: 'easy_instant_messages/conversation/message', locals: { message: @easy_instant_message, show_avatar: true } %>");
+  EasyInstantMessenger.scrollToBottomOfChatWindow();
+<% end %>

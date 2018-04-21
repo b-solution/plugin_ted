@@ -1,0 +1,9 @@
+<div id="easy_instant_messages_container" class="easyim__container">
+  <div id="easy_instant_messages_header" class="easyim__header">
+    <%= render partial: 'easy_instant_messages/headers/conversations' %>
+  </div>
+
+  <div id="easy_instant_messages_body" class="easyim__body">
+    <%= render partial: 'easy_instant_messages/conversations/conversation_overview', collection: @conversations, as: :conversation %>
+  </div>
+</div>

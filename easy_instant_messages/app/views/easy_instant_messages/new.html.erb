@@ -1,0 +1,10 @@
+<% if false %>
+<div id="easy_inline_im_container" data-user-id="<%= @user.id %>">
+  <%= render(:partial => 'easy_instant_messages/inline_message_form_with_history', :formats => [:html]) %>
+</div>
+<script type="text/javascript">
+  <%=raw render(:partial => 'hyper_interval', :formats => [:js]) %>
+  var chat = $("#easy_inline_im_container");
+  chat.slideDown({done: function(e) {$('#easy_im_inline_message_history').scrollTop($('#easy_im_inline_message_history')[0].scrollHeight);$("#easy_instant_message_inline_chat_inputs textarea").focus()}});
+</script>
+<% end %>

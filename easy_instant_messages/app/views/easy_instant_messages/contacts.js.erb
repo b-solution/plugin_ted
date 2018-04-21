@@ -1,0 +1,7 @@
+$("#easy_instant_messages_body").html("<%= j render partial: 'contact', collection: @contacts, locals: { dark: true, show_link: true } %>");
+
+EasyInstantMessenger.setDefaultInterval();
+
+<% if Redmine::Plugin.installed?(:easy_attendances) %>
+  LazyLoader.refresh();
+<% end %>

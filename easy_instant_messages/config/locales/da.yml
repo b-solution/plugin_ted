@@ -1,0 +1,21 @@
+---
+da:
+  button_easy_instant_message_address_book: Vis adressebog
+  button_easy_instant_message_send: Send besked
+  button_easy_instant_messge_new_message: Ny rapport
+  button_easy_instant_messge_new_message_short: Nyt
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Sende chatbeskeder løbet Easy Redmine
+  error_easy_instant_message_error: Besked ikke sendt
+  label_easy_instant_message_adress_book: Adresse bog
+  label_easy_instant_message_count_messages: Antallet af rapporter
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Modtager
+  label_easy_instant_messages: Chatbeskeder
+  label_easy_instant_messages_complete_history: Al historie
+  label_easy_instant_messages_history_for: Samtale historik:%{user}
+  label_new_easy_instant_message: Ny onlinemeddelelse
+  notice_easy_instant_message_sended: Besked sendt
+  title_easy_instant_message_indicator: Display adresse bog
+  title_easy_instant_message_reply: Svar

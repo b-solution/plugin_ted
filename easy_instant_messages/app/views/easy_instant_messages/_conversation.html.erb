@@ -1,0 +1,7 @@
+<div class="easyim__conversation" id="easy_instant_messages_conversation_with_<%= conversation.secondparty.id %>">
+  <div class="easyim__conversation__messages" id="easy_instant_messages_conversation_messages">
+    <% conversation.messages.each_with_index do |message, i| %>
+        <%= render partial: 'easy_instant_messages/conversation/message', locals: { message: message, show_avatar: message.sender_id != conversation.messages[i+1].try(:sender_id) } %>
+    <% end %>
+  </div>
+</div>

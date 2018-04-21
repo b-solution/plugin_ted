@@ -1,0 +1,36 @@
+---
+fr:
+  button_easy_instant_message_address_book: Afficher répertoire
+  button_easy_instant_message_full_chat: Toute la conversation
+  button_easy_instant_message_send: Envoi message
+  button_easy_instant_messages_delete_all: Supprimer tout
+  button_easy_instant_messge_new_message: Nouveau message
+  button_easy_instant_messge_new_message_short: Nouveau
+  button_send: Envoyer
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Envoyer Messages instantanés avec Easy
+    Redmine
+  easy_instant_messages_plugin_name: Discussion projet
+  error_easy_instant_message_error: Le message n'est pas envoyé
+  label_easy_instant_message_adress_book: Répertoire
+  label_easy_instant_message_count_messages: Nombre de messages
+  label_easy_instant_message_offline: Hors ligne
+  label_easy_instant_message_recipient: Destinataire
+  label_easy_instant_messages: Messages instantanés
+  label_easy_instant_messages_complete_history: Toute l'historique
+  label_easy_instant_messages_history_for: 'Historique des conversations: %{user}'
+  label_new_easy_instant_message: Nouveau message instantanné
+  notice_easy_instant_message_sended: Message envoyé
+  permission_use_easy_instant_messages: Utiliser instant messages
+  placeholder_easy_im_search_user: Rechercher dans les personnes...
+  project_module_easy_instant_messages: Chat - Instant messages
+  text_easy_instant_messages_notifier: Vous avez %{count} nouveaux messages
+  text_im_chat_with: Chat avec
+  title_easy_im_mute_sound: Désactiver notification messages reçus
+  title_easy_im_unmute_sound: Activer notification messages reçus
+  title_easy_instant_message_check_permission_notification: Autoriser notifications
+    sur desktop
+  title_easy_instant_message_indicator: Afficher répertoire
+  title_easy_instant_message_reply: Répondre
+  title_easy_instant_messages_notifier: Nouveau message

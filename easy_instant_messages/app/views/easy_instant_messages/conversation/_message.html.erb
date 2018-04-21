@@ -1,0 +1,14 @@
+<div class="easyim__message <%= 'mine' if message.sender_id == User.current.id %>" id="easy_instant_messages_message_<%= message.id %>">
+  <div class="easyim__message__avatar easyim__avatar <%= 'easyim__message__avatar--hidden' unless local_assigns.fetch(:show_avatar, true) %>">
+    <%= avatar(message.sender, style: :medium) %>
+  </div>
+
+  <div class="easyim__message__content-wrapper">
+    <div class="easyim__message__timestamp <%= 'easyim__message__timestamp--right' if message.sender_id == User.current.id %>">
+      <%= format_time(message.created_at) %>
+    </div>
+    <div class="easyim__message__content <%= 'easyim__message__content--grey' if message.sender_id == User.current.id %>" title="<%= format_time(message.created_at) %>">
+      <%= textilizable(message.content) %>
+    </div>
+  </div>
+</div>

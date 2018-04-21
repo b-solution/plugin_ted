@@ -1,0 +1,34 @@
+---
+cs:
+  button_easy_instant_message_address_book: Zobrazit adresář
+  button_easy_instant_message_full_chat: Celé okno
+  button_easy_instant_message_send: Odeslat zprávu
+  button_easy_instant_messages_delete_all: Smazat všechny zprávy
+  button_easy_instant_messge_new_message: Nová zpráva
+  button_easy_instant_messge_new_message_short: Nová
+  button_send: Odeslat
+  easy_instant_messages_plugin_author: Easy Software
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: Zasílání rychlých zpráv
+  easy_instant_messages_plugin_name: Projektový chat
+  error_easy_instant_message_error: Zprávu se nepodařilo odeslat
+  label_easy_instant_message_adress_book: Adresář
+  label_easy_instant_message_count_messages: Počet zpráv
+  label_easy_instant_message_offline: Offline
+  label_easy_instant_message_recipient: Příjemce
+  label_easy_instant_messages: Rychlé zprávy
+  label_easy_instant_messages_complete_history: Celá historie
+  label_easy_instant_messages_history_for: 'Historie konverzace: %{user}'
+  label_new_easy_instant_message: Nová rychlá zpráva
+  notice_easy_instant_message_sended: Zpráva odeslána
+  permission_use_easy_instant_messages: Používání chatu
+  placeholder_easy_im_search_user: Hledat lidi pro chatování
+  project_module_easy_instant_messages: Chat - Rychlé zasílání zpráv
+  text_easy_instant_messages_notifier: Máte %{count} nových zpráv
+  text_im_chat_with: Konverzace s
+  title_easy_im_mute_sound: Vypnout zvuk příchozí zprávy
+  title_easy_im_unmute_sound: Zapnout zvuk příchozí zprávy
+  title_easy_instant_message_check_permission_notification: Povolit oznámení na ploše
+  title_easy_instant_message_indicator: Zobrazit adresář
+  title_easy_instant_message_reply: Odpovědět
+  title_easy_instant_messages_notifier: Easy chat - Nová zpráva

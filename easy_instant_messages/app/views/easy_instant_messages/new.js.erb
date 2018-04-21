@@ -1,0 +1,25 @@
+<% if params[:hide_modal] %>
+hideModal();
+<% end %>
+var x = document.getElementById("easy_inline_im_container");
+if (x)
+    x.remove();
+
+var chat = $("<div/>").attr({id:'easy_inline_im_container', "data-user-id": "<%= @user.id %>"});
+var chatContainer = $("#easy_instant_messages_list_window").hide();
+chat.html("<%=j render(:partial => 'easy_instant_messages/inline_message_form_with_history') %>");
+if (chatContainer[0]) {
+  $("#easy_instant_messages_container.unread *[data-sender-id='<%= @user.id %>']").remove();
+  chatContainer.before(chat);
+} else {
+  $("#easy_servicebar_component_body").html(chat);
+  $("#easy_servicebar_component").easySlidingPanel({trigger: '#easy_instant_messages_list_trigger'});
+  $('#easy_servicebar_close_toggler').click(function() { EasyInstantMessenger.closeChat() });
+}
+
+document.getElementById("easy_instant_message_content").focus();
+EasyInstantMessenger.openChat({userId: <%= @user.id %>, senderAvatar: '<%=j avatar(@user, {style: :small, no_link: true})  %>'});
+EasyInstantMessenger.chatWindow['window'] = chatContainer[0];
+EasyInstantMessenger.scrollToBottomOfChatWindow();
+EasyInstantMessenger.newMessagesCount = (EasyInstantMessenger.newMessagesCount - <%= @count %>);
+EasyInstantMessenger.toggleNewMessageReceived();

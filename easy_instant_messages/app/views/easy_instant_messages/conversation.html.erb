@@ -1,0 +1,5 @@
+<!--Renders action -->
+<!--Partial: '_conversation' - common for JS -->
+
+<%= render partial: 'easy_instant_messages/contact', locals: { contact: @conversation.secondparty, dark: true, omit_link: true } %>
+<%= render @conversation %>

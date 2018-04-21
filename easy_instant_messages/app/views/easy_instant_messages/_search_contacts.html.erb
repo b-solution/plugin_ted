@@ -1,0 +1,6 @@
+<%= form_tag contacts_easy_instant_messages_path, method: :get, class: 'easyim__search-form', remote: true do %>
+  <%= text_field_tag :q, nil, placeholder: t(:placeholder_easy_instant_messages_search_users), class: 'easyim__search-input', autocomplete: 'off' %>
+  <%= button_tag 'S', type: :submit, class: 'easyim__search-btn' do %>
+    <%= image_tag('search.svg', plugin: :easy_instant_messages) %>
+  <% end %>
+<% end %>

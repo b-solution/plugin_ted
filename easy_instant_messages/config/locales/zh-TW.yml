@@ -1,0 +1,21 @@
+---
+zh-TW:
+  button_easy_instant_message_address_book: "顯示地址簿"
+  button_easy_instant_message_send: "發送消息"
+  button_easy_instant_messge_new_message: "新報告"
+  button_easy_instant_messge_new_message_short: "新"
+  easy_instant_messages_plugin_author: "易軟件"
+  easy_instant_messages_plugin_author_url: http://www.easyproject.cz/
+  easy_instant_messages_plugin_description: "發送即時消息，易管理平台"
+  error_easy_instant_message_error: "訊息未發送"
+  label_easy_instant_message_adress_book: "地址簿"
+  label_easy_instant_message_count_messages: "報告數"
+  label_easy_instant_message_offline: "當前離線"
+  label_easy_instant_message_recipient: "接受者"
+  label_easy_instant_messages: "即時消息"
+  label_easy_instant_messages_complete_history: "所有的歷史"
+  label_easy_instant_messages_history_for: "對話歷史記錄：%{user}"
+  label_new_easy_instant_message: "新的即時消息"
+  notice_easy_instant_message_sended: "消息已發出"
+  title_easy_instant_message_indicator: "顯示地址簿"
+  title_easy_instant_message_reply: "回答"

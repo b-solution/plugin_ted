@@ -1,0 +1,50 @@
+%reset-button {
+  @extend %reset-padding;
+  @extend %reset-border;
+  @extend %reset-background;
+  @extend %reset-shadow;
+  outline: none;
+}
+
+%reset-pre {
+  @extend %reset-padding;
+  @extend %reset-margin;
+  @extend %reset-border;
+  @extend %reset-background;
+  line-height: 1;
+  color: initial;
+  word-wrap: initial;
+  border-radius: initial;
+  overflow: auto;
+}
+
+%reset-text {
+  @extend %reset-padding;
+  @extend %reset-margin;
+  @extend %reset-border;
+  @extend %reset-background;
+  @extend %reset-shadow;
+}
+
+%reset-margin {
+  margin: 0;
+}
+
+%reset-padding {
+  padding: 0;
+}
+
+%reset-border {
+  border: none;
+}
+
+%reset-shadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+%reset-background {
+  background: none;
+  background-color: none;
+}

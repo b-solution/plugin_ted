@@ -1,0 +1,9 @@
+$("#easy_instant_messages_header").html("<%= j render partial: 'easy_instant_messages/headers/conversations' %>");
+$("#easy_instant_messages_body").html("<%= j render partial: 'easy_instant_messages/conversations/conversation_overview', collection: @conversations, as: :conversation %>");
+
+EasyInstantMessenger.setDefaultInterval();
+
+<% if Redmine::Plugin.installed?(:easy_attendances) %>
+  LazyLoader.refresh();
+<% end %>
+
